@@ -2,6 +2,7 @@
 
 namespace MaksSlesarenko\EmdriveBundle\EventListener;
 
+use MaksSlesarenko\EmdriveBundle\DependencyInjection\Config;
 use MaksSlesarenko\EmdriveBundle\LoggerAwareTrait;
 use Symfony\Component\Console\ConsoleEvents;
 use Symfony\Component\Console\Event\ConsoleCommandEvent;
@@ -11,6 +12,13 @@ use Symfony\Component\Filesystem\Filesystem;
 class AddCommandLogSubscriber implements EventSubscriberInterface
 {
     use LoggerAwareTrait;
+
+    private $config;
+
+    public function __construct(Config $config)
+    {
+        $this->config = $config;
+    }
 
     /**
      * @return array
@@ -24,7 +32,7 @@ class AddCommandLogSubscriber implements EventSubscriberInterface
 
     public function onStart(ConsoleCommandEvent $event)
     {
-        $logDir = 'var/log/' . date('Y_m_d/');
+        $logDir = $this->config->logDir . date('Y_m_d/');
 
         $filesystem = new Filesystem();
         $filesystem->mkdir($logDir);

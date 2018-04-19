@@ -35,8 +35,11 @@ class Config
         if ('/' !== $this->logDir[0]) {
             $this->logDir = $projectDir . '/' . $this->logDir;
         }
+
         if ('/' !== $this->pidDir[0]) {
             $this->pidDir = $projectDir . '/' . $this->pidDir;
         }
+        $this->logDir = rtrim($this->logDir, '/') . '/';
+        $this->pidDir = rtrim($this->pidDir, '/') . '/';
     }
 }

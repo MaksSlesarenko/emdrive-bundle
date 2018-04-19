@@ -11,7 +11,7 @@ trait InterruptableExecutionTrait
     private $isInterrupted = false;
     private $isInterruptHandlerInitialized = false;
 
-    public function initInterruptHandler()
+    protected function initInterruptHandler()
     {
         if (!$this->isInterruptHandlerInitialized) {
             foreach ([\SIGINT, \SIGTERM, \SIGHUP] as $signo) {
