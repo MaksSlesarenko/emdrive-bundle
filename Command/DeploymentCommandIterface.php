@@ -1,13 +1,13 @@
 <?php
 
-namespace MaksSlesarenko\EmdriveBundle\Command;
+namespace EmdriveBundle\Command;
 
 /**
  * Interface DeploymentCommandIterface
  *
  * @mixin \Symfony\Component\Console\Command\Command
  *
- * @package MaksSlesarenko\EmdriveBundle\Command
+ * @package EmdriveBundle\Command
  */
 interface DeploymentCommandIterface
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace MaksSlesarenko\EmdriveBundle\DependencyInjection;
+namespace EmdriveBundle\DependencyInjection;
 
 /**
  * Class Config
- * @package MaksSlesarenko\EmdriveBundle\DependencyInjection
+ * @package EmdriveBundle\DependencyInjection
  */
 class Config
 {

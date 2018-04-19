@@ -1,9 +1,9 @@
 <?php
 
-namespace MaksSlesarenko\EmdriveBundle\EventListener;
+namespace EmdriveBundle\EventListener;
 
-use MaksSlesarenko\EmdriveBundle\Command\LockableCommandInterface;
-use MaksSlesarenko\EmdriveBundle\LoggerAwareTrait;
+use EmdriveBundle\Command\LockableCommandInterface;
+use EmdriveBundle\LoggerAwareTrait;
 use Symfony\Component\Console\ConsoleEvents;
 use Symfony\Component\Console\Event\ConsoleCommandEvent;
 use Symfony\Component\Console\Event\ConsoleTerminateEvent;

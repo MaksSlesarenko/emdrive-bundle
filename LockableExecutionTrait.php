@@ -1,8 +1,8 @@
 <?php
 
-namespace MaksSlesarenko\EmdriveBundle;
+namespace EmdriveBundle;
 
-use MaksSlesarenko\EmdriveBundle\Service\LockService;
+use EmdriveBundle\Service\LockService;
 use Symfony\Component\Console\Command\Command;
 
 /**

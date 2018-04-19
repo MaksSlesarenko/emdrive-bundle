@@ -1,10 +1,10 @@
 <?php
 
-namespace MaksSlesarenko\EmdriveBundle\Command;
+namespace EmdriveBundle\Command;
 
 /**
  * Interface ScheduledCommandInterface
- * @package MaksSlesarenko\EmdriveBundle\Command
+ * @package EmdriveBundle\Command
  */
 interface ScheduledCommandInterface extends LockableCommandInterface
 {

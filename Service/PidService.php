@@ -1,9 +1,9 @@
 <?php
 
-namespace MaksSlesarenko\EmdriveBundle\Service;
+namespace EmdriveBundle\Service;
 
-use MaksSlesarenko\EmdriveBundle\Command\LockableCommandInterface;
-use MaksSlesarenko\EmdriveBundle\DependencyInjection\Config;
+use EmdriveBundle\Command\LockableCommandInterface;
+use EmdriveBundle\DependencyInjection\Config;
 
 class PidService
 {

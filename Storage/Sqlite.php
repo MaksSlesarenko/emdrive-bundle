@@ -1,6 +1,6 @@
 <?php
 
-namespace MaksSlesarenko\EmdriveBundle\Storage;
+namespace EmdriveBundle\Storage;
 
 class Sqlite implements StorageInterface
 {

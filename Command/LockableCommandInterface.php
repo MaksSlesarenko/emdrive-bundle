@@ -1,13 +1,13 @@
 <?php
 
-namespace MaksSlesarenko\EmdriveBundle\Command;
+namespace EmdriveBundle\Command;
 
 /**
  * Interface LockableCommandInterface
  *
  * @mixin \Symfony\Component\Console\Command\Command
  *
- * @package MaksSlesarenko\EmdriveBundle\Command
+ * @package EmdriveBundle\Command
  */
 interface LockableCommandInterface
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace MaksSlesarenko\EmdriveBundle\Service;
+namespace EmdriveBundle\Service;
 
-use MaksSlesarenko\EmdriveBundle\DependencyInjection\Config;
-use MaksSlesarenko\EmdriveBundle\Storage\StorageInterface;
+use EmdriveBundle\DependencyInjection\Config;
+use EmdriveBundle\Storage\StorageInterface;
 use Symfony\Component\Console\Helper\Table;
 
 class ScheduleService

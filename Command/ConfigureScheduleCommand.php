@@ -1,8 +1,8 @@
 <?php
 
-namespace MaksSlesarenko\EmdriveBundle\Command;
+namespace EmdriveBundle\Command;
 
-use MaksSlesarenko\EmdriveBundle\Service\ScheduleService;
+use EmdriveBundle\Service\ScheduleService;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Helper\SymfonyQuestionHelper;
 use Symfony\Component\Console\Input\InputArgument;

@@ -1,6 +1,6 @@
 <?php
 
-namespace MaksSlesarenko\EmdriveBundle\DependencyInjection;
+namespace EmdriveBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\ConfigurationInterface;
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;

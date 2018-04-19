@@ -1,12 +1,12 @@
 <?php
 
-namespace MaksSlesarenko\EmdriveBundle\EventListener;
+namespace EmdriveBundle\EventListener;
 
-use MaksSlesarenko\EmdriveBundle\Command\ScheduledCommandInterface;
-use MaksSlesarenko\EmdriveBundle\Command\Service\RunCommand;
-use MaksSlesarenko\EmdriveBundle\InterruptableExecutionTrait;
-use MaksSlesarenko\EmdriveBundle\Service\PidService;
-use MaksSlesarenko\EmdriveBundle\Service\ScheduleService;
+use EmdriveBundle\Command\ScheduledCommandInterface;
+use EmdriveBundle\Command\Service\RunCommand;
+use EmdriveBundle\InterruptableExecutionTrait;
+use EmdriveBundle\Service\PidService;
+use EmdriveBundle\Service\ScheduleService;
 use Symfony\Component\Console\ConsoleEvents;
 use Symfony\Component\Console\Event\ConsoleCommandEvent;
 use Symfony\Component\Console\Event\ConsoleErrorEvent;

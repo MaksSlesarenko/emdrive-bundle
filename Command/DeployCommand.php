@@ -1,9 +1,9 @@
 <?php
 
-namespace MaksSlesarenko\EmdriveBundle\Command;
+namespace EmdriveBundle\Command;
 
-use MaksSlesarenko\EmdriveBundle\DependencyInjection\Config;
-use MaksSlesarenko\EmdriveBundle\LoggerAwareTrait;
+use EmdriveBundle\DependencyInjection\Config;
+use EmdriveBundle\LoggerAwareTrait;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\ArrayInput;
 use Symfony\Component\Console\Input\InputInterface;

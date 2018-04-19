@@ -1,15 +1,15 @@
 <?php
 
-namespace MaksSlesarenko\EmdriveBundle\Command\Service;
+namespace EmdriveBundle\Command\Service;
 
-use MaksSlesarenko\EmdriveBundle\Command\LockableCommandInterface;
-use MaksSlesarenko\EmdriveBundle\Command\ScheduledCommandInterface;
-use MaksSlesarenko\EmdriveBundle\DependencyInjection\Config;
-use MaksSlesarenko\EmdriveBundle\InterruptableExecutionTrait;
-use MaksSlesarenko\EmdriveBundle\LockableExecutionTrait;
-use MaksSlesarenko\EmdriveBundle\LoggerAwareTrait;
-use MaksSlesarenko\EmdriveBundle\Service\PidService;
-use MaksSlesarenko\EmdriveBundle\Service\ScheduleService;
+use EmdriveBundle\Command\LockableCommandInterface;
+use EmdriveBundle\Command\ScheduledCommandInterface;
+use EmdriveBundle\DependencyInjection\Config;
+use EmdriveBundle\InterruptableExecutionTrait;
+use EmdriveBundle\LockableExecutionTrait;
+use EmdriveBundle\LoggerAwareTrait;
+use EmdriveBundle\Service\PidService;
+use EmdriveBundle\Service\ScheduleService;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
@@ -18,7 +18,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 /**
  * Class RunCommand
  *
- * @package MaksSlesarenko\EmdriveBundle\Command\Service
+ * @package EmdriveBundle\Command\Service
  */
 class RunCommand extends Command implements LockableCommandInterface
 {

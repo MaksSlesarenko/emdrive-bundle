@@ -1,6 +1,6 @@
 <?php
 
-namespace MaksSlesarenko\EmdriveBundle;
+namespace EmdriveBundle;
 
 use Psr\Container\ContainerInterface;
 use Symfony\Component\DependencyInjection\Container;

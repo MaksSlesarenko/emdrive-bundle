@@ -1,5 +1,5 @@
 services:
-    MaksSlesarenko\EmdriveBundle\:
+    EmdriveBundle\:
         autowire: true
         autoconfigure: true
         public: false

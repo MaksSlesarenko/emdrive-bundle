@@ -1,9 +1,9 @@
 <?php
 
-namespace MaksSlesarenko\EmdriveBundle\DependencyInjection;
+namespace EmdriveBundle\DependencyInjection;
 
-use MaksSlesarenko\EmdriveBundle\Service;
-use MaksSlesarenko\EmdriveBundle\Storage;
+use EmdriveBundle\Service;
+use EmdriveBundle\Storage;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\Definition;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;

@@ -1,18 +1,18 @@
 <?php
 
-namespace MaksSlesarenko\EmdriveBundle\Command\Deploy;
+namespace EmdriveBundle\Command\Deploy;
 
-use MaksSlesarenko\EmdriveBundle\Command\DeploymentCommandIterface;
-use MaksSlesarenko\EmdriveBundle\Command\ScheduledCommandInterface;
-use MaksSlesarenko\EmdriveBundle\LoggerAwareTrait;
-use MaksSlesarenko\EmdriveBundle\Service\ScheduleService;
+use EmdriveBundle\Command\DeploymentCommandIterface;
+use EmdriveBundle\Command\ScheduledCommandInterface;
+use EmdriveBundle\LoggerAwareTrait;
+use EmdriveBundle\Service\ScheduleService;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * Class UpdateScheduleCommand
- * @package MaksSlesarenko\EmdriveBundle\Command\Deploy
+ * @package EmdriveBundle\Command\Deploy
  */
 class UpdateScheduleCommand extends Command implements DeploymentCommandIterface
 {

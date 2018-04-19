@@ -1,10 +1,10 @@
 <?php
 
-namespace MaksSlesarenko\EmdriveBundle\Command\Service;
+namespace EmdriveBundle\Command\Service;
 
-use MaksSlesarenko\EmdriveBundle\InterruptableExecutionTrait;
-use MaksSlesarenko\EmdriveBundle\Service\PidService;
-use MaksSlesarenko\EmdriveBundle\Service\ScheduleService;
+use EmdriveBundle\InterruptableExecutionTrait;
+use EmdriveBundle\Service\PidService;
+use EmdriveBundle\Service\ScheduleService;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
@@ -13,7 +13,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 /**
  * Class StatusCommand
  *
- * @package MaksSlesarenko\EmdriveBundle\Command\Service
+ * @package EmdriveBundle\Command\Service
  */
 class StatusCommand extends Command
 {

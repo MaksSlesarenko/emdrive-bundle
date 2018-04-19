@@ -1,4 +1,4 @@
-**MaksSlesarenkoEmdriveBundle**
+**EmdriveBundle**
 
 This bundle provides a built-in service that runs indefinitely and allows to trigger execution of Symfony\Component\Console\Command\Command on daily or interval bases 
 
@@ -63,9 +63,9 @@ Example:
 **Create scheduled command**
 
 ```
-use MaksSlesarenko\EmdriveBundle\Command\ScheduledCommandInterface;
-use MaksSlesarenko\EmdriveBundle\InterruptableExecutionTrait;
-use MaksSlesarenko\EmdriveBundle\LockableExecutionTrait;
+use EmdriveBundle\Command\ScheduledCommandInterface;
+use EmdriveBundle\InterruptableExecutionTrait;
+use EmdriveBundle\LockableExecutionTrait;
 use Symfony\Component\Console\Command\Command;
 
 class FisrtScheduledCommand extends Command implements ScheduledCommandInterface

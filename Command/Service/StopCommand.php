@@ -1,15 +1,15 @@
 <?php
 
-namespace MaksSlesarenko\EmdriveBundle\Command\Service;
+namespace EmdriveBundle\Command\Service;
 
-use MaksSlesarenko\EmdriveBundle\Service\PidService;
+use EmdriveBundle\Service\PidService;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * Class StopCommand
- * @package MaksSlesarenko\EmdriveBundle\Command\Service
+ * @package EmdriveBundle\Command\Service
  */
 class StopCommand extends Command
 {

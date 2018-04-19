@@ -1,11 +1,11 @@
 <?php
 
-namespace MaksSlesarenko\EmdriveBundle\Command;
+namespace EmdriveBundle\Command;
 
 /**
  * Trait DeployedCommandTrait
  *
- * @package MaksSlesarenko\EmdriveBundle\Command
+ * @package EmdriveBundle\Command
  */
 trait DeployedCommandTrait
 {

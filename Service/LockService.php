@@ -1,6 +1,6 @@
 <?php
 
-namespace MaksSlesarenko\EmdriveBundle\Service;
+namespace EmdriveBundle\Service;
 
 use Symfony\Component\Lock\Factory;
 use Symfony\Component\Lock\Lock;

@@ -1,6 +1,6 @@
 <?php
 
-namespace MaksSlesarenko\EmdriveBundle;
+namespace EmdriveBundle;
 
 use Monolog\Logger;
 use Psr\Log\LoggerInterface;
