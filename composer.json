@@ -1,0 +1,27 @@
+{
+    "name": "maksslesarenko/emdrive-bundle",
+    "description": "This bundle provides a built-in service that runs indefinitely and allows to trigger execution of Symfony Command on daily or interval bases",
+    "keywords": [],
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "authors": [
+        {
+            "name": "Maksym Slesarenko",
+            "email": "maks.slesarenko@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">7.0",
+        "symfony/framework-bundle": ">4.0",
+        "symfony/lock": ">4.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "MaksSlesarenko\\EmdriveBundle\\": ""
+        }
+    },
+    "conflict": {
+    }
+}
